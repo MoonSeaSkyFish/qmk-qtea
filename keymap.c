@@ -2,21 +2,18 @@
  * default HHKB Layout
  */
 #include QMK_KEYBOARD_H
-/* #include "sendstring_jis.h" */
 
 #define _BASE 0
 #define _MAC_ 1
 #define _HHKB 2
 #define _UTIL 3
 
-//#undef JP_UNDS
-//#define JP_UNDS S(JP_0) // _
 // それぞれの基本レイヤーの上にFnの設定レイヤーが必要？
 
 /*
  --- 覚書 --------------------------------------------------------------
   # qmk compile -kb hhkb/ansi -km qtea
-  # qmk flash -kb hhkb/ansi -km qteaqmk flash -kb hhkb/ansi -km qtea
+  # qmk flash -kb hhkb/ansi -km qtea
 
   KC_TRNS ... 透過 下位のレイヤーのキーになる
 
